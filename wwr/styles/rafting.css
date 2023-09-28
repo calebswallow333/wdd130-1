@@ -1,0 +1,77 @@
+@import url(https://fonts.google.com/specimen/Martian+Mono);
+:root {
+    --primary-color: #333;
+    --secondary-color: #444;
+    --accent1-color: #555;
+    --accent2-color: #666;
+
+    --heading-font: "Arial Black", serif;
+    --paragraph-font: "Arial Black", serif;
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+header img {
+    width: 176px;
+    height: auto;
+    float: left;
+}
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+
+.hero h1{
+    text-align: center;
+    color: brown;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+article img {
+    width: 25%;
+    height: 25%;
+    float: right;
+}
+article p {
+    padding: 68px;
+    text-align: center;
+    background-color: steelblue;
+    color: black;
+}
+    
+
+
+section h2{
+    text-align: center;
+    color: brown;
+}
+section img {
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
+
+
+
+.Sociallinks a{
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+.Sociallinks img {
+    width: 10%;
+    height: 10%;
+}
