@@ -3,81 +3,81 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav {
-    background-color: steelblue;
-    padding: 10px;
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
-nav a {
-    color: white;
-    padding: 10px;
-    display: block;
-}
-h1 {
-    color: steelblue;
-
-}
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px #333;
-}
+    header nav {
+        background-color: steelblue;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    header nav a {
+        display: block;
+        padding: 0.5rem;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #fff;
+    }
+        .grid{
+            display: grid;
+            align-items: center;
+        }
+        .grid main {
+            max-width: 840px;
+            grid-column: 2/3;
+            margin: 1rem;
+        }
+        .grid main h1 {
+            color:steelblue;
+            padding: 7px;
+            border-bottom: 1px solid steelblue;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        .grid main img {
+            width: 150px;
+            height: auto;
+            float: right;
+            padding: 5px;
+            border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
+        }
+        .grid aside {
+            width: 20rem;
+            margin: 1rem;
+            border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
+            padding: 1rem;
+            background-color: #eee;
+            color: #333;
+            text-align: center;
+            position: relative;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        .grid aside img {
+            width: 290px;
+            height: auto;
+        }
+        .grid .box{
+            width: 20rem;
+            margin: 1rem;
+            border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
+            padding: 1rem;
+            background-color: #eee;
+            color: #333;
+        }
+        .grid .box h2 {
+            font-size: 1.3rem;
+        }
 p {
     padding: 10px;
     
-}
-main {
-    max-width: 840px;
-}
-nav a {
-    color: white;
-    padding: 10px;
-    display: block;
-}
-h1{
-    color: steelblue;
-}
-main img {
-    width: 130px;
-    height: auto;
-}
-p {padding: 0;}
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
-aside img {
-    width: 600px;
-    height: auto;
 }
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
-}
-
-/* Class selectors */
-.box {
-    margin: 1rem;
-    border: 1px solid rgba(0,0,0,.1);
-    padding: 1rem;
-    background-color: #ddd;
-    color:#000;
-}
-aside {
-    width: 50.5rem;
-    text-align: center;
-}
-main img {
-    float: right;
-}
-aside h2 {
-    top: 47px;
-    left: 150px;
 }
