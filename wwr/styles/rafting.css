@@ -61,10 +61,13 @@ body header img {
         display: block;
         margin: 1rem;
         border: 1px solid rgba(0, 0, 0, .1);
-        background: url(../wwr/images/Background.jpg);
-        background-color: brown;
+        height: 100vh;
+        background: url(../images/Background.jpg);
+        background-size: cover;
+        background-color: var(--accent2-color);
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
         align-items: center;
         padding: 100px;
     }
@@ -98,8 +101,11 @@ body header img {
         grid-template-rows: 10vh 25vh 3vh;
         margin: 1rem;
         border: 1px solid rgba(0, 0, 0, .1);
-        background: url(../wwr/images/5img.jpg);
-        background-color: brown;
+        height: 100vh;
+        background: url(../images/5img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: var(--accent2-color);
         padding: 1px;
     }
     main article h2 {
@@ -133,7 +139,7 @@ body header img {
         margin: 1rem;
         border: 1px solid rgba(0, 0, 0,.1) ;
         padding: 1rem;
-        background-color: brown;
+        background-color: var(--accent2-color);
     }
     main .grid h2 {
         text-align: center;
