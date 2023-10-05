@@ -61,8 +61,8 @@ body header img {
         display: block;
         margin: 1rem;
         border: 1px solid rgba(0, 0, 0, .1);
-        background: url(/wwr/images/Background.jpg);
-        background-color: black;
+        background: url(wwr/images/Background.jpg);
+        background-color: brown;
         background-size: cover;
         background-position: center;
         align-items: center;
@@ -87,7 +87,7 @@ body header img {
         height: auto;
         box-shadow: 0 0 30px #333;
         padding: 10px;
-        float: right;
+        float: left;
     }
     
     
@@ -95,11 +95,11 @@ body header img {
         display: grid;
         grid-template-areas: "h2 h2" "phrase phrase" "p p";
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 20vh 50vh 5vh;
+        grid-template-rows: 10vh 25vh 3vh;
         margin: 1rem;
         border: 1px solid rgba(0, 0, 0, .1);
-        background: url(/wwr/images/5img.jpg);
-        background-color: black;
+        background: url(wwr/images/5img.jpg);
+        background-color: brown;
         padding: 1px;
     }
     main article h2 {
