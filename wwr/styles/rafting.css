@@ -1,5 +1,5 @@
 @import 
-:root {}
+:root{}
 *{
     margin: 0;
     padding: 0;
@@ -42,7 +42,7 @@ body header img {
 
 
     main section div {
-        width: 100%;
+        width: 98%;
         height: auto;
         display: block;
         margin: 1rem;
@@ -96,7 +96,7 @@ body header img {
         font-style: italic;
         color: white;
     }
-    main article phrase {
+    main article .phrase {
         align-items: center;
         justify-content: center;
         color:white;
