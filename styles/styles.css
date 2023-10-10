@@ -22,6 +22,7 @@ header, .grid, footer {
         font-weight: 700;
         color: #fff;
     }
+        /* Class Selectors */
         .grid{
             display: grid;
             align-items: center;
@@ -69,8 +70,10 @@ header, .grid, footer {
             background-color: #eee;
             color: #333;
         }
-        .grid .box h2 {
+        .grid aside h2 {
             font-size: 1.3rem;
+            position: absolute;
+            color: white;
         }
 p {
     padding: 10px;
