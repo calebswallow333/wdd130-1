@@ -5,6 +5,7 @@
 }
 header, .grid, footer {
     max-width: 840px;
+    min-height: 0px;
     margin: 0 auto;
 }
     header nav {
