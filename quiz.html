@@ -25,9 +25,11 @@
 
                 <div class="input-box">
                 <label for="q3">Wich of the following is a valid CSS comment?</label>
-                <option value="" selected disabled>Choose one ...</option>
-                <option value="q3" selected disabled>Choose one ...</option>
-                <option value="" selected disabled>Choose one ...</option>
+                <select>
+                    <option value="/ comment /">/ comment /</option>
+                    <option value="/* comment */">/* comment */</option>
+                    <option value="* comment *">* comment *</option>
+                </select>
                 </div>
 
                 <div class="input-box">
@@ -35,7 +37,24 @@
                 <p>margin: 10px 5px 15px;</p>
                 <input type="number" name="q4" id="q4">
                 </div>
-                
+
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="browser">1- What is your favorite Internet browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                    </select> <br>
+                    <label for="pet">2- Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet"><br>
+                    <label for="feedback">3- List the places you have lived:</label><br>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater"></textarea>
+                </fieldset>
+
                 <button type="submit">Submit Quiz</button>
             </form>
             </div>

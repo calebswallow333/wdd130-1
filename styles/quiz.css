@@ -8,30 +8,51 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: bisque;
+    background-color: steelblue;
 }
 .container {
     width: 420px;
-    background-color: bisque;
-    color: black;
-    padding: 10px;
+    background-color: steelblue;
+    color: white;
+    padding: 1px;
 }
 .container h1 {
     display: block;
-    background-color: bisque;
+    background-color: steelblue;
     font-size: 36px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .container .input-box {
     width: 100%;
     height: 50px;
-    background-color: bisque;
-    margin: 30px 0px;
+    background-color: steelblue;
+    margin: 20px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
 
 .input-box input {
     width: 100%;
     height: 100%;
+}
+
+fieldset {
+    display: block;
+    background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 65px 0px;
+}
+fieldset legend {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+fieldset label, select, textarea {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
 
 button {
@@ -41,8 +62,8 @@ button {
     color: white;
     border: none;
     outline: none;
-    border-radius: 40px;
-    margin: 50px 0px;
+    border-radius: 50px;
+    margin: 10px;
 }
 p {
     width: 100%;
