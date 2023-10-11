@@ -8,21 +8,26 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: steelblue;
+    background-color: white;
 }
 .container {
     width: 420px;
     background-color: steelblue;
+    border-radius: 20px;
+    padding: 100px;
     color: white;
     padding: 1px;
 }
 .container h1 {
     display: block;
     background-color: steelblue;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
     font-size: 36px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0px 0px 100px;
+    margin: 0px 0px 10px;
 }
 .container .input-box {
     width: 100%;
@@ -31,7 +36,7 @@ body {
     margin: 20px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    margin: 70px 0px;
+    margin: 20px 0px;
 }
 
 .input-box input {
@@ -52,7 +57,7 @@ button {
     border: none;
     outline: none;
     border-radius: 50px;
-    margin: 10px 0px;
+    margin: 60px 0px 10px;
 }
 p {
     width: 100%;
