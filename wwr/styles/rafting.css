@@ -57,11 +57,10 @@ body header img {
 
     main section div {
         width: 98%;
-        height: auto;
+        height: 20%;
         display: block;
         margin: 1rem;
         border: 1px solid rgba(0, 0, 0, .1);
-        height: 100vh;
         background: url(/wwr/images/Background.jpg);
         background-size: cover;
         background-color: var(--accent2-color);
@@ -95,13 +94,14 @@ body header img {
     
     
     main article {
+        width: 98%;
+        height: 10%;
         display: grid;
         grid-template-areas: "h2 h2" "phrase phrase" "p p";
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 10vh 25vh 3vh;
         margin: 1rem;
         border: 1px solid rgba(0, 0, 0, .1);
-        height: 100vh;
         background: url(/wwr/images/5img.jpg);
         background-size: cover;
         background-repeat: no-repeat;
