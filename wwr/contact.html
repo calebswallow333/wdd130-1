@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=500, initial-scale=1" />
         <meta name="description" content="How to contact us">
         <meta name="author" content="Santiago Benjamín Irigoyen | Nickname: Kishvell">
-        <link href = "styles/contact.css" rel = "stylesheet" type = "text/css">
-        <title>Contact Us</title>
+        <link href = "/wwr/styles/contact.css" rel = "stylesheet" type = "text/css">
+        <title>Contact Kayak Connections</title>
     </head>
 
     <body>
@@ -42,25 +42,30 @@
                 </figure>
             </div>
 
-
-            <fieldset class="container">
-                <legend>Requests</legend>
-                <label for="name">What is your name?</label><br>
-                <textarea id="name" name="name" rows="10" placeholder="You can write up to 10 names"></textarea><br>
-                <label for="Email">What is your Email?</label><br>
-                <textarea id="Email" name="Email" rows="3" placeholder="You can write up to 3 Emails"></textarea><br>
-                <label for="request">What is the purpose of the message?</label><br>
-                <select id="request" name="request">
-                    <option value="General Inquiry">General Inquiry</option>
-                    <option value="Reservation Question">Reservation Question</option>
-                    <option value="Website Suggestion">Website Suggestion</option>
-                    <option value="other">Other</option>
-                </select><br>
-                <textarea id="request" name="request" placeholder="Keep the message short, we will contact you"></textarea><br>
-                <label for="suscribe">Please subscribe me to the monthly newsletter: </label>
-                <input type="checkbox" id="subscribe" name="suscribe"><br>
-                <button type="submit">Submit Quiz</button>
-            </fieldset>
+            <form></form>
+                <fieldset class="container">
+                    <legend>Requests</legend>
+                    <label for="name">What is your name?</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="Email">What is your Email?</label><br>
+                    <input type="text" id="Email" name="Email" required><br>
+                    <label for="request">What is the purpose of the message?</label><br>
+                    <select id="request" name="request">
+                        <option value="General Inquiry">General Inquiry</option>
+                        <option value="Reservation Question">Reservation Question</option>
+                        <option value="Website Suggestion">Website Suggestion</option>
+                        <option value="other">Other</option>
+                    </select><br>
+                    <textarea id="request" name="request" placeholder="Keep the message short, we will contact you"></textarea><br>
+                    <label for="suscribe">Please subscribe me to the monthly newsletter: </label>
+                    <input type="checkbox" id="subscribe" name="suscribe"><br>
+                    <label for="radio">Are you a Robot?</label><br>
+                    <input type="radio" name="Yes">Yes</text><br>
+                    <input type="radio" name="No">No</text><br>
+                    <input type="radio" name="i don't know">I don't know</text><br>
+                    <button type="submit">Submit Quiz</button>
+                </fieldset>
+            </form>
         </main>
 
         <footer>
