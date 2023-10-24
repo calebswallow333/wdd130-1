@@ -165,7 +165,7 @@ body header img {
         box-shadow: #000;
         margin: 10px 10px 10px 10px;
         text-align: center;
-        background-color: white;
+        background-color: steelblue;
         border-radius: 20px;
     }
     body main .real p {
@@ -178,9 +178,9 @@ body header img {
     body main .real h2, h1 {
         margin: 10px 10px 10px 10px;
         text-align: center;
-        border-bottom: 1px solid steelblue;
+        border-bottom: 1px solid white;
         font-size: 50px;
-        color: steelblue;
+        color: white;
     }
     body main .real figure {
         display: flex;
@@ -219,6 +219,9 @@ body header img {
         font-family: Georgia, 'Times New Roman', Times, serif;
         margin: 0px 0px 10px;
     }
+    .container p {
+        color: white;
+    }
     
     textarea {
         width: 100%;
@@ -240,7 +243,110 @@ body header img {
         border-radius: 50px;
         margin: 10px 0px 10px;
     }
+    body .contact a {
+        display: block;
+        border: 1px solid black;
+        box-shadow: #000;
+        margin: 10px 10px 10px 10px;
+        text-align: center;
+        background-color: steelblue;
+        border-bottom: white;
+        border-radius: 20px;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 20px;
+        font-size: 30px;
+    }
+    body .trips {
+        display: flex;
+        border: 1px solid black;
+        align-content: center;
+        justify-content: center;
+        box-shadow: #000;
+        margin: 10px 10px 10px 10px;
+        text-align: center;
+        background-color: white;
+        border-radius: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 20px;
+        font-size: 30px;
+        width: 1235px;
+        height: 500px;
+        position: relative;
+    }
+    body .trips img {
+        width: 90%;
+        height: 55%;
+        border: none;
+        outline: none;
+        border-radius: 50px;
+    }
+    body .trips h1, h2, h3, p {
+        display: block;
+        color: steelblue;
+        font-size: 20px;
+        border-bottom: steelblue;
+        margin: 10px 0px 10px;
+    }
+    body .trips p{
+        display: block;
+        color: black;
+        margin: 10px 10px 10px 10px;
+        font-size: 15px;
+    }
 
+    body .Website main {
+        display: block;
+        background: url(/wwr/images/3img.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        align-items: center;
+        padding: 100px;
+    }
+    body .Website main h1 {
+        color: white;
+    }
+    body .Website aside {
+        display: block;
+        border: 1px solid black;
+        box-shadow: #000;
+        margin: 10px 10px 10px 10px;
+        border-radius: 20px;
+        padding: 20px;
+        background: url(/wwr/images/Background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    body .Website aside .offers {
+        display: block;
+        border: 1px solid black;
+        box-shadow: #000;
+        margin: 10px 10px 10px 10px;
+        text-align: center;
+        background: url(/wwr/images/Home.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 20px;
+        font-size: 30px;
+    }
+    body .Website aside .offers a {
+        color: white;
+    }
+    body .Website aside .offer {
+        display: flex;
+        width: 430px;
+        height: 430px;
+    }
+    .Website aside form fieldset legend {
+        color: white;
+        border-bottom: white;
+    }
 
         footer p{
             text-align: center;

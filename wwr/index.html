@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title> Santiago Benjamín Iriogen | WDD 130 </title>
+    <meta name="viewport" content="width=500, initial-scale=1">
+    <meta name="description" content="Santiago Benjamín Irigoyen | Web Fundamentals | Introduction">
+    <meta name="author" content="Santiago Benjamín Irigoyen | Nickname Kishvell">
+    <link rel="stylesheet" href="/wwr/styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting site logo">
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/wwr/about.html">Rafting Website</a>
+            <a href="/wwr/trips.html">Trips</a>
+            <a href="/wwr/contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <div class="Website">
+        <main>
+            <h1>Kayak Connections</h1>
+        </main>
+
+        <aside>
+            <form>
+                <fieldset class="container">
+                    <legend>Newsletter</legend>
+                    <label for="name">What is your name?</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="Email">What is your Email?</label><br>
+                    <input type="text" id="Email" name="Email" required><br>
+                    <label for="request">What is the purpose of the message?</label><br>
+                    <select id="request" name="request">
+                        <option value="General Inquiry">General Inquiry</option>
+                        <option value="Reservation Question">Reservation Question</option>
+                        <option value="Website Suggestion">Website Suggestion</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <textarea id="message" name="message" placeholder="Keep the message short, we will contact you"></textarea>
+                    <p> Please subscribe me to the monthly newsletter: </p> 
+                    <input type="checkbox" id="subscribe" name="suscribe">
+                    <button type="submit">Submit Quiz</button>
+                </fieldset>
+            </form>
+            <div class="offers">
+                <a href="/wwr/trips.html">Trips we offer</a>
+            </div>
+            <div class="offer">
+                <img src="/wwr/images/trips1.jpeg" alt="First images">
+                <img src="/wwr/images/trips3.jpg" alt="Second images">
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy;2023 | Santiago Benjamín Irigoyen | Argentina, Misiones, Posadas</p>
+        <nav class = "Sociallinks">
+            <p>Facebook links to other Kayak sites: </p>
+            <a href = "https://www.facebook.com/kayak.com.argentina?brand_redir=315745001959161"><img src = "images/KAYAK.png" alt = "KAYAK"></a>
+            <a href = "https://www.facebook.com/spain.info.ar/?brand_redir=198783896823258"><img src="images/spain.info.jpg" alt="spain.info"></a>
+            <a href = "https://www.facebook.com/raftingsouthafrica"><img src="images/Riverman.jpg" alt="Riverman Rafting South Africa"></a>
+        </nav>
+    </footer>
+</body>
+</html>
